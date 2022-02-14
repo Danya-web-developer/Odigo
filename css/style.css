@@ -139,7 +139,7 @@ li {
 
 .header__wrapper {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   justify-content: space-between;
   padding-top: 56px;
 }
@@ -1013,6 +1013,33 @@ li {
   }
 }
 
+@media screen and (max-height: 415px) {
+  .header__nav {
+    padding: 28px 75px;
+  }
+}
+
+@media screen and (max-width: 396px) {
+  .places__view-eye-icon {
+    display: block;
+  }
+  .places__view-all {
+    display: none;
+  }
+}
+
+@media screen and (max-height: 396px) {
+  .header__nav {
+    padding: 21px 75px;
+  }
+  .header__link {
+    font-size: 34px;
+  }
+  .header__item {
+    margin-bottom: 28px;
+  }
+}
+
 @media screen and (max-width: 355px) {
   .header {
     padding-bottom: 25px;
@@ -1056,12 +1083,6 @@ li {
   .search-form__submit {
     font-size: 18px;
     line-height: 9px;
-  }
-  .places__view-all {
-    display: none;
-  }
-  .places__view-eye-icon {
-    display: block;
   }
   .tour__title {
     font-size: 19px;
