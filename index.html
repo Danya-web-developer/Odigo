@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.min.css">
   <title>Discover amazing places in Japan</title>
 </head>
 
@@ -23,16 +23,16 @@
         <nav class="header__nav">
           <ul class="header__list">
             <li class="header__item">
-              <a href="#!" class="header__link">Articles</a>
+              <a href="#articles" class="header__link js-scroll">Articles</a>
             </li>
             <li class="header__item">
-              <a href="#!" class="header__link">Locations</a>
+              <a href="#locations" class="header__link js-scroll">Locations</a>
             </li>
             <li class="header__item">
-              <a href="#!" class="header__link">Videos</a>
+              <a href="#videos" class="header__link js-scroll">Videos</a>
             </li>
             <li class="header__item">
-              <a href="#!" class="header__link">Sign in</a>
+              <a href="#sign-in" class="header__link js-scroll">Sign in</a>
             </li>
           </ul>
           <button class="reset-btn header__nav-close">
@@ -51,7 +51,7 @@
   <!-- Header end -->
   <main class="main">
     <!-- Intro start -->
-    <section class="intro">
+    <section class="intro" id="sign-in">
       <div class="wrapper">
         <h1 class="intro__title">Discover Amazing places in Japan</h1>
         <p class="intro__subtitle">
@@ -121,12 +121,12 @@
         <div class="places__cards">
           <!-- Big cards start -->
           <figure class="places__card places__card-size-lg">
-            <img class="places__card-pic places__card-pic_size_lg" src="img/mount.jpg" alt="Mount Fuji">
+            <img class="places__card-pic places__card-pic_size_lg" src="img/mount-min.jpg" alt="Mount Fuji">
             <figcaption class="places__card-title">Mount Fuji</figcaption>
             <a class="places__card-link" href="https://visitjapan.ru/fuji-guide/mt-fuji-more-than-a-mountain" target="_blank"></a>
           </figure><!-- first -->
           <figure class="places__card places__card-size-lg">
-            <img class="places__card-pic places__card-pic_size_lg" src="img/kyoto.jpg" alt="Kuoto">
+            <img class="places__card-pic places__card-pic_size_lg" src="img/kyoto-min.jpg" alt="Kuoto">
             <figcaption class="places__card-title">Kuoto</figcaption>
             <a class="places__card-link" href="https://visitjapan.ru/destinations/kansai/kyoto" target="_blank"></a>
           </figure><!-- second -->
@@ -134,17 +134,17 @@
 
           <!-- Small cards start -->
           <figure class="places__card places__card-size-sm">
-            <img class="places__card-pic places__card-pic_size_sm" src="img/tokyo.jpg" alt="Tokyo">
+            <img class="places__card-pic places__card-pic_size_sm" src="img/tokyo-min.jpg" alt="Tokyo">
             <figcaption class="places__card-title">Tokyo</figcaption>
             <a class="places__card-link" href="https://visitjapan.ru/destinations/kanto/tokyo" target="_blank"></a>
           </figure><!-- first -->
           <figure class="places__card places__card-size-sm">
-            <img class="places__card-pic places__card-pic_size_sm" src="img/niigata.jpg" alt="Niigata">
+            <img class="places__card-pic places__card-pic_size_sm" src="img/niigata-min.jpg" alt="Niigata">
             <figcaption class="places__card-title">Niigata</figcaption>
             <a class="places__card-link" href="https://visitjapan.ru/destinations/hokuriku-shinetsu/niigata" target="_blank"></a>
           </figure><!-- second -->
           <figure class="places__card places__card-size-sm">
-            <img class="places__card-pic places__card-pic_size_sm" src="img/sapporo.jpg" alt="Sapporo">
+            <img class="places__card-pic places__card-pic_size_sm" src="img/sapporo-min.jpg" alt="Sapporo">
             <figcaption class="places__card-title">Sapporo</figcaption>
             <a class="places__card-link" href="https://visitjapan.ru/spot/473" target="_blank"></a>
           </figure><!-- third -->
@@ -155,12 +155,12 @@
     <!-- Places end -->
 
     <!-- Tours start -->
-    <div class="tours">
+    <div class="tours" id="articles">
       <div class="wrapper-full">
 
         <div class="tours__tour tour">
           <div class="tour__pic">
-            <img class="tour__thumb" src="img/tour-1.jpg" alt="Prefecture in Focus: Tottori">
+            <img class="tour__thumb" src="img/tour-1-min.jpg" alt="Prefecture in Focus: Tottori">
           </div>
           <div class="tour__info">
             <h3 class="tour__title">Prefecture in Focus: Tottori</h3>
@@ -180,7 +180,7 @@
             <a class="tour__more" href="#!">View neighborhood</a>
           </div>
           <div class="tour__pic">
-            <img class="tour__thumb" src="img/tour-2.jpg" alt="Featured Neighborhood: Kyoto’s Arashiyama">
+            <img class="tour__thumb" src="img/tour-2-min.jpg" alt="Featured Neighborhood: Kyoto’s Arashiyama">
           </div>
         </div>
 
@@ -189,14 +189,14 @@
     <!-- Tours end -->
 
     <!-- Top start -->
-    <section class="top">
+    <section class="top" id="locations">
       <div class="wrapper-full">
         <h2 class="top__title section-title">Today top places to visit</h2>
         <div class="top__cards">
           <!-- Cards start -->
           <div class="top__card">
             <div class="top__card-pic">
-              <img class="top__card-thumb" src="img/top-nagoya.jpg" alt="NAGOYA">
+              <img class="top__card-thumb" src="img/top-nagoya-min.jpg" alt="NAGOYA">
               <div class="top__card-stats">
                 <h3 class="top__card-title">NAGOYA</h3>
                 <div class="top__card-likes">
@@ -225,7 +225,7 @@
 
           <div class="top__card">
             <div class="top__card-pic">
-              <img class="top__card-thumb" src="img/top-niigata.jpg" alt="NIIGATA">
+              <img class="top__card-thumb" src="img/top-niigata-min.jpg" alt="NIIGATA">
               <div class="top__card-stats">
                 <h3 class="top__card-title">NIIGATA</h3>
                 <div class="top__card-likes">
@@ -254,7 +254,7 @@
 
           <div class="top__card">
             <div class="top__card-pic">
-              <img class="top__card-thumb" src="img/top-osaka.jpg" alt="OSAKA">
+              <img class="top__card-thumb" src="img/top-osaka-min.jpg" alt="OSAKA">
               <div class="top__card-stats">
                 <h3 class="top__card-title">OSAKA</h3>
                 <div class="top__card-likes">
@@ -283,7 +283,7 @@
 
           <div class="top__card">
             <div class="top__card-pic">
-              <img class="top__card-thumb" src="img/top-saitama.jpg" alt="SAITAMA">
+              <img class="top__card-thumb" src="img/top-saitama-min.jpg" alt="SAITAMA">
               <div class="top__card-stats">
                 <h3 class="top__card-title">SAITAMA</h3>
                 <div class="top__card-likes">
@@ -312,7 +312,7 @@
 
           <div class="top__card">
             <div class="top__card-pic">
-              <img class="top__card-thumb" src="img/top-ueno.jpg" alt="UENO">
+              <img class="top__card-thumb" src="img/top-ueno-min.jpg" alt="UENO">
               <div class="top__card-stats">
                 <h3 class="top__card-title">UENO</h3>
                 <div class="top__card-likes">
@@ -341,7 +341,7 @@
 
           <div class="top__card">
             <div class="top__card-pic">
-              <img class="top__card-thumb" src="img/top-shibuya.jpg" alt="SHIBUYA">
+              <img class="top__card-thumb" src="img/top-shibuya-min.jpg" alt="SHIBUYA">
               <div class="top__card-stats">
                 <h3 class="top__card-title">SHIBUYA</h3>
                 <div class="top__card-likes">
@@ -374,7 +374,7 @@
     <!-- Top end -->
 
     <!-- Videos start -->
-    <div class="videos">
+    <div class="videos" id="videos">
       <div class="videos__wrapper">
         <div class="video__item"></div>
         <iframe class="video__element" src="https://www.youtube.com/embed/CxuiFNYnEr4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -448,7 +448,7 @@
       </div>
     </div>
   </footer>
-  <script src="js/main.js"></script>
+  <script src="js/main-es5.min.js"></script>
 </body>
 
 </html>
